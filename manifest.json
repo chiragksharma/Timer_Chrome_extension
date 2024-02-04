@@ -3,7 +3,8 @@
     "name": "Timer",
     "version": "1.0",
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon" : "images/Logo.png"
   },
 
     "content_scripts": [
@@ -20,5 +21,8 @@
         "activeTab",
         "contextMenus",
         "storage"
-      ]
+      ],
+      "icons": {
+        "128": "images/Logo.png"
+      }
   }
