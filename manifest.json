@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Timer",
+    "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+      },
+      "permissions": [
+        "activeTab",
+        "contextMenus",
+        "storage"
+      ]
+  }
