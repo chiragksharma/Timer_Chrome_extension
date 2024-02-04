@@ -28,6 +28,7 @@
   </p>
 </div>
 
+<img width="903" alt="Timer_Extension" src="https://github.com/chiragksharma/Timer_Chrome_extension/assets/74889769/670a7474-c8df-41c0-9f18-023119e33a4e">
 
 
 <!-- TABLE OF CONTENTS -->
